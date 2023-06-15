@@ -1,44 +1,12 @@
-# Chatbot UI
+# Chatbot UI x LangChain
 
-Chatbot UI is an open source chat UI for AI models.
+This repo is to serve as a template for building chat interfaces usign ChatbotUI and LangChain Python-Based backend.
+
+Chatbot UI is an open source chat UI for AI models. And LangChain is an open source library to help build LLM powered apps.
 
 See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
 
 ![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
-
-## Updates
-
-Chatbot UI will be updated over time.
-
-Expect frequent improvements.
-
-**Next up:**
-
-- [ ] Sharing
-- [ ] "Bots"
-
-## Deploy
-
-**Vercel**
-
-Host your own live version of Chatbot UI with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
-
-**Docker**
-
-Build locally:
-
-```shell
-docker build -t chatgpt-ui .
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
-```
-
-Pull from ghcr:
-
-```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-ui:main
-```
 
 ## Running Locally
 
@@ -71,6 +39,8 @@ OPENAI_API_KEY=YOUR_KEY
 ```bash
 npm run dev
 ```
+
+**Lanarky-based LangChain Backend Setup**
 
 Note: follow instructions in backend [README](./backend/README.md) to run the backend.
 
