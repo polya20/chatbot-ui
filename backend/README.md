@@ -20,7 +20,7 @@ to get started.
 2.  Install dependencies:
 
     ```bash
-    pip install -r requirements-dev.txt
+    pip install -r requirements.in
     ```
 
     **Note**: All requirement files are generated using `pip-tools`.
