@@ -2,7 +2,7 @@
 
 This repo is to serve as a template for building chat interfaces usign ChatbotUI and LangChain Python-Based backend.
 
-Chatbot UI is an open source chat UI for AI models. And LangChain is an open source library to help build LLM powered apps.
+Chatbot UI is an open source chat UI for AI models. And LangChain is an open source library to help build LLM powered apps. Lanarky is used to serve LangChain powered apps with streaming support.
 
 See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
 
@@ -81,8 +81,7 @@ When deploying the application, the following environment variables can be set:
 | DEFAULT_MODEL                     | `gpt-3.5-turbo`                | The default model to use on new conversations, for Azure use `gpt-35-turbo`                                                               |
 | NEXT_PUBLIC_DEFAULT_SYSTEM_PROMPT | [see here](utils/app/const.ts) | The default system prompt to use on new conversations                                                                                     |
 | NEXT_PUBLIC_DEFAULT_TEMPERATURE   | 1                              | The default temperature to use on new conversations                                                                                       |
-| GOOGLE_API_KEY                    |                                | See [Custom Search JSON API documentation][GCSE]                                                                                          |
-| GOOGLE_CSE_ID                     |                                | See [Custom Search JSON API documentation][GCSE]                                                                                          |
+
 
 If you do not provide an OpenAI API key with `OPENAI_API_KEY`, users will have to provide their own key.
 
@@ -90,6 +89,6 @@ If you don't have an OpenAI API key, you can get one [here](https://platform.ope
 
 ## Contact
 
-If you have any questions, feel free to reach out to Mckay on [Twitter](https://twitter.com/mckaywrigley).
+If you have any questions, feel free to reach out to Mckay on [Twitter](https://twitter.com/mckaywrigley) for ChatbotUI. For Lanarky backend, please reach out to  [Ajinkya](https://twitter.com/lanarky_io). And if you want to build LLM-powered LangChain apps, reach out to [Misbah](https://twitter.com/lanarky_io)
 
 [GCSE]: https://developers.google.com/custom-search/v1/overview
